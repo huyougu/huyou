@@ -34,7 +34,7 @@ const header:Ref<Array<any>> = ref([
         line-height: 60px;
         margin-right:1rem;
         font-weight: 700;
-        
+        padding: 0;
         cursor: pointer;
         transition: filter 300ms;
         &:hover{
