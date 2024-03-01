@@ -14,16 +14,15 @@ const header:Ref<Array<any>> = ref([
 ])
 
 
-
 </script>
 <style   scope lang="scss">
 .header {
+    z-index: 1000;
     height: 60px;
     /* background-color: #26272F; */
     /* //半透明 */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
-    backdrop-filter: blur(10px);
     color: white;
     position: sticky;
     top: 0;
@@ -53,7 +52,3 @@ const header:Ref<Array<any>> = ref([
 }
 
 </style>
-<script setup lang="ts">
-
-
-</script>

@@ -5,8 +5,8 @@
   width: 100%;
 
   color-scheme: light dark;
-  background: url("../public/wallhaven-wewodx_3024x1964.png") no-repeat;
-  background-size: cover;
+  background: url("/wallhaven-wewodx_3024x1964.png") no-repeat center center fixed;
+  background-size: 100%;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
